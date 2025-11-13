@@ -97,7 +97,7 @@ Findings can help HR professionals and managers:
 * Develop effective retention strategies.
 * Design better compensation and career development plans.
 
-**Author : **
+**Author :**
 Ayush Gairola
-|Data Science Trainee
-|(https://www.linkedin.com/in/ayush-gairola1310/) | (https://github.com/ayushgairola13) |
+| Data Science Trainee
+| (https://www.linkedin.com/in/ayush-gairola1310/) | (https://github.com/ayushgairola13) |
