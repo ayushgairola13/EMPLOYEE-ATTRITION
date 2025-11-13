@@ -63,14 +63,6 @@ The dataset contains detailed information about employees, including demographic
       * Side-by-side plots for retained vs attrited employees by income category.
       * Single comparison plots grouped by attrition outcome.
    * Analyzed Percent Salary Hike distribution for attrited employees.
-
-
-## **RESULTS**
-
-   * Low income, low job level, and fewer working years are strongly linked to higher attrition.
-   * Employees with lower salary hikes and shorter tenure tend to leave more often.
-   * Younger employees (age group 25–35) exhibit higher attrition probability.
-   * Employees with longer service periods generally show stronger retention.
    
 
 ## **VISUALIZATIONS**
@@ -88,6 +80,15 @@ The dataset contains detailed information about employees, including demographic
 | **Monthly Income Category Chart** | Compares income levels for retained and attrited employees.    |
 
 
+
+## **RESULTS**
+
+   * Low income, low job level, and fewer working years are strongly linked to higher attrition.
+   * Employees with lower salary hikes and shorter tenure tend to leave more often.
+   * Younger employees (age group 25–35) exhibit higher attrition probability.
+   * Employees with longer service periods generally show stronger retention.
+
+     
 ## **CONCLUSION**
 
 The Employee Attrition Analysis provides valuable insights into workforce behavior and key attrition drivers.
