@@ -36,51 +36,31 @@ The dataset contains detailed information about employees, including demographic
 * Scikit-learn – Data preprocessing, model training, and evaluation
 * Joblib – Model serialization
 
+  
 ## **APPROACH**
 
-### **1. Data Preprocessing and Inspection :**
-   * Loaded dataset using pandas.read_csv().
-   * Checked data types, null values, and dataset dimensions.+
-   * Displayed column names, unique values, and overall data summary.
+### 1.**Data Preprocessing:**
+   * Loaded data using Pandas.
+   * Checked for missing values and data types.
+   * Reviewed unique values and data summaries.
+ 
+### 2. **Correlation Analysis:**
+   * Calculated correlations between numeric features.
+   * Plotted pair plots and heatmaps to find relationships.
+   * Used a triangular heatmap for a cleaner view.
 
-### **2. Correlation and Feature Analysis :**
- * Used DataFrame.corr() to calculate numeric correlations.
- * Plotted:
-    * Pair Plots (sns.pairplot) to visualize variable relationships.
-    * Heatmaps (sns.heatmap) to identify strong correlations.
-    * Triangular Correlation Heatmaps for cleaner interpretation.
+### 3. **Data Visualization:**
+   * Created pie charts to show retained vs. attrited employees.
+   * Plotted histograms for:
+     * Age vs. Attrition
+     * Job Level vs. Attrition
+     * Years at Company vs. Attrition
+     * Total Working Years vs. Attrition
+   *Grouped employees into income categories to compare attrition rates.
 
-### **3. Exploratory Data Visualization :**
-   * Attrition Distribution Pie Chart: Visualized overall employee retention vs attrition.
-   * Histograms:
-     * Age vs Attrition
-     * Job Level vs Attrition
-     * Years at Company vs Attrition
-     * Total Working Years vs Attrition
-   * Monthly Income Categorization: Created custom income categories using a Python function and apply() to compare attrition rates.
-
-### **4. Comparative Analysis**
-   * Compared retained vs attrited employees using Seaborn’s countplot() and histplot(). 
-   * Created:
-      * Side-by-side plots for retained vs attrited employees by income category.
-      * Single comparison plots grouped by attrition outcome.
-   * Analyzed Percent Salary Hike distribution for attrited employees.
-   
-
-## **VISUALIZATIONS**
-
-| **Visualization                     | Description **                                                   |
-| --------------------------------- | -------------------------------------------------------------- |
-| **Pair Plot**                     | Displays relationships between all numerical variables.        |
-| **Correlation Heatmap**           | Shows correlations among numeric features.                     |
-| **Triangular Heatmap**            | Highlights upper triangle of correlation matrix for clarity.   |
-| **Attrition Pie Chart**           | Shows the percentage of retained vs attrited employees.        |
-| **Age Distribution Plot**         | Compares age distributions for retained vs attrited employees. |
-| **Job Level Distribution**        | Analyzes attrition rate across job levels.                     |
-| **Years at Company Plot**         | Shows how tenure affects attrition likelihood.                 |
-| **Total Working Years Plot**      | Displays overall experience impact on attrition.               |
-| **Monthly Income Category Chart** | Compares income levels for retained and attrited employees.    |
-
+### 4. **Comparative Analysis:**
+   * Compared retained and attrited employees by income, job level, and salary hike.
+   * Used Seaborn’s countplots and histplots for visual comparison.
 
 
 ## **RESULTS**
@@ -89,6 +69,18 @@ The dataset contains detailed information about employees, including demographic
    * Employees with lower salary hikes and shorter tenure tend to leave more often.
    * Younger employees (age group 25–35) exhibit higher attrition probability.
    * Employees with longer service periods generally show stronger retention.
+
+
+## **VISUALISATION :**
+
+| **Visualization**      | **Description**                               |
+| ---------------------- | --------------------------------------------- |
+| Pair Plot              | Shows relationships between numeric variables |
+| Correlation Heatmap    | Displays feature correlations                 |
+| Triangular Heatmap     | Cleaner version of correlation heatmap        |
+| Attrition Pie Chart    | Percentage of retained vs. left employees     |
+| Age & Job Level Charts | Attrition trends by age and job level         |
+| Income Category Chart  | Comparison of attrition across income levels  |
 
      
 ## **CONCLUSION**
