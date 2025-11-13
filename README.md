@@ -55,8 +55,8 @@ The dataset contains detailed information about employees, including demographic
      * Age vs. Attrition
      * Job Level vs. Attrition
      * Years at Company vs. Attrition
-     * Total Working Years vs. Attrition
-   *Grouped employees into income categories to compare attrition rates.
+     * Total Working Years vs. Attrition  
+  * Grouped employees into income categories to compare attrition rates.
 
 ### 4. **Comparative Analysis:**
    * Compared retained and attrited employees by income, job level, and salary hike.
