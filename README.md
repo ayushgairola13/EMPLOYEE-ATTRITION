@@ -94,3 +94,7 @@ It can be used by HR departments to:
    * Improve retention strategies
    * Design better policies
    * Reduce turnover costs
+
+**Author**
+Ayush Gairola
+Data Science Trainee (https://www.linkedin.com/in/ayush-gairola1310/) (https://github.com/ayushgairola13)
