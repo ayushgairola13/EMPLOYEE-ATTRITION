@@ -97,4 +97,5 @@ It can be used by HR departments to:
 
 **Author**
 Ayush Gairola
-Data Science Trainee (https://www.linkedin.com/in/ayush-gairola1310/) (https://github.com/ayushgairola13)
+Data Science Trainee
+(https://www.linkedin.com/in/ayush-gairola1310/), (https://github.com/ayushgairola13)
