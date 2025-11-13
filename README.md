@@ -11,6 +11,8 @@ This project aims to analyze and predict employee attrition using data machine l
 
 ## **DATASET DESCRIPTION**
 
+URL: https://github.com/IBM/employee-attrition-aif360/blob/master/data/emp_attrition.csv
+
 The dataset contains detailed information about employees, including demographics, job satisfaction, salary, experience, and work environment details.
 
 | **Feature**        | **Description**                                         |
