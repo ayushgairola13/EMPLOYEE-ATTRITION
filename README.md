@@ -71,7 +71,7 @@ The dataset contains detailed information about employees, including demographic
    * Employees with lower salary hikes and shorter tenure tend to leave more often.
    * Younger employees (age group 25–35) exhibit higher attrition probability.
    * Employees with longer service periods generally show stronger retention.
-   * 
+   
 
 ## **VISUALIZATIONS**
 
@@ -99,4 +99,4 @@ Findings can help HR professionals and managers:
 **Author**
 Ayush Gairola
 Data Science Trainee
-(https://www.linkedin.com/in/ayush-gairola1310/), (https://github.com/ayushgairola13)
+|(https://www.linkedin.com/in/ayush-gairola1310/) | (https://github.com/ayushgairola13) |
